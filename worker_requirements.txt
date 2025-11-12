@@ -3,3 +3,4 @@ langchain
 langchain-groq
 tavily-python
 langchain-community
+langchain-core
