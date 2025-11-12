@@ -1,5 +1,8 @@
-supabase
-langchain
-langchain-groq
-tavily-python
+supabase-client 
+langchain 
+langchain-groq 
+tavily-python 
+python-dotenv 
+supabase 
+tavily-python 
 langchain-community
