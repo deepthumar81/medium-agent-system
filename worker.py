@@ -2,7 +2,10 @@ import os
 from supabase import create_client, Client
 from langchain_groq import ChatGroq
 from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain.schema import SystemMessage, HumanMessage
+# from langchain.schema import SystemMessage, HumanMessage
+
+from langchain_core.messages import SystemMessage, HumanMessage
+from langchain.schema import HumanMessage # This might be redundant, but let's be safe. Wait, no.
 
 # --- 1. SET UP ALL CONNECTIONS ---
 
