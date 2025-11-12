@@ -2,3 +2,4 @@ supabase
 langchain
 langchain-groq
 tavily-python
+langchain-community
